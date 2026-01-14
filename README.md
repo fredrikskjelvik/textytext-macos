@@ -1,26 +1,33 @@
-#  Freddynote
+# textytext
 
-[Markdown Editor Tool](https://pandao.github.io/editor.md/en.html "Markdown Editor Tool")
+Textytext is a native MacOS rich text editor with UX similar to Notion. I.e. a block-based text editor which supports several block types, including text, header, image, code snippet, bullet list, and numbered list.
 
-1. Overview
-1.1. LimitlessUI
-1.2. LimitlessUITests
-1.3. LimitlessUIUITests
-1.4. Products
-2. Comments
+The text editor is written entirely in Swift with AppKit, and then wrapped in a NSViewControllerRepresentable so you can deploy the text editor as a SwiftUI component just like this:
 
+```swift
+import SwiftUI
 
-## 1. Overview
-Heisann
+struct EditorContainer: View {
+    var body: some View {
+        TextViewContainer()
+    }
+}
+```
 
-### 1.1. LimitlessUI
-Heisann
+# Functionality
 
-### 1.2. LimitlessUITests
-Heisann
+### Basic text editing
+video 1
+![Feature demo - basic text editing](./readme-assets/feature-1.gif)
 
-### 1.3. LimitlessUIUITests
-Heisann
+### Lists (bullet & numbered)
+![Feature demo - lists, bullet & numbered list](./readme-assets/feature-2.gif)
 
-### 1.4. Products
-Heisann
+### Images
+![Feature demo - images](./readme-assets/feature-3.gif)
+
+### Code snippets
+![Feature demo - code snippets](./readme-assets/feature-4.gif)
+
+### Links
+![Feature demo - Links](./readme-assets/feature-5.gif)
