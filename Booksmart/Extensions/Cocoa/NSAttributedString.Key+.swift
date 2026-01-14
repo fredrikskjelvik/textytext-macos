@@ -9,7 +9,4 @@ extension NSAttributedString.Key {
 	
 	// Some parts are unselectable, for example the marker and space in a list (actually the only example)
 	static let unselectable: NSAttributedString.Key = .init("unselectable")
-    
-    // Page link to (page number)
-    static let pageLinkTo: NSAttributedString.Key = .init("pageLinkTo")
 }

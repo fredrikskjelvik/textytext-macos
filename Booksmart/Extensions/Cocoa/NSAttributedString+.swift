@@ -8,7 +8,7 @@ extension NSAttributedString {
     func attributeRuns(in range: NSRange) -> AttributeRuns {
         var runs = AttributeRuns()
 
-        enumerateAttributes(in: range, options: []) {attributes, range, _ in
+        enumerateAttributes(in: range, options: []) { attributes, range, _ in
             runs.append((attributes, range))
         }
 
