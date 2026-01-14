@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		350DDE4B28EB68D9006DEC7E /* NuclearWasteland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350DDE4A28EB68D9006DEC7E /* NuclearWasteland.swift */; };
 		350DDE4E28EB6A33006DEC7E /* RangeSelectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350DDE4D28EB6A33006DEC7E /* RangeSelectionHelper.swift */; };
 		350DDE5128EBACB8006DEC7E /* CodedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350DDE5028EBACB8006DEC7E /* CodedBlock.swift */; };
 		3515031B26692A14000E93EE /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515031A26692A14000E93EE /* Typealiases.swift */; };
@@ -20,8 +19,6 @@
 		353F4CDA28D709B000A826B3 /* NotesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F4CD928D709B000A826B3 /* NotesContainer.swift */; };
 		354D3BF72968F22100C9FAC3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D3BF62968F22100C9FAC3 /* Scene.swift */; };
 		354D3C042969215B00C9FAC3 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D3C032969215B00C9FAC3 /* DependencyInjection.swift */; };
-		3551571D28556CD3005260C8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3551571C28556CD3005260C8 /* Realm */; };
-		3551571F28556CD3005260C8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3551571E28556CD3005260C8 /* RealmSwift */; };
 		3551572228556D88005260C8 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551572128556D88005260C8 /* RealmManager.swift */; };
 		3551572C28557BE5005260C8 /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551572B28557BE5005260C8 /* URL+.swift */; };
 		3552E38228E5882D00F76392 /* BlockUndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552E38128E5882D00F76392 /* BlockUndoManager.swift */; };
@@ -32,6 +29,10 @@
 		356D2E8A29076AC300FF9F2F /* PopoverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D2E8929076AC300FF9F2F /* PopoverManager.swift */; };
 		356DE5992637BB6800912975 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356DE5982637BB6800912975 /* Color+.swift */; };
 		3575CC82263D7BD400E9F306 /* NSColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575CC81263D7BD400E9F306 /* NSColor+.swift */; };
+		3577CC642F17F3C70054E122 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 3577CC632F17F3C70054E122 /* Factory */; };
+		3577CC662F17F3CD0054E122 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 3577CC652F17F3CD0054E122 /* Logging */; };
+		3577CC692F17F4B60054E122 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3577CC682F17F4B60054E122 /* Realm */; };
+		3577CC6B2F17F4B60054E122 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3577CC6A2F17F4B60054E122 /* RealmSwift */; };
 		357835AE2632304F00BD3124 /* BooksmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357835AD2632304F00BD3124 /* BooksmartApp.swift */; };
 		357835B22632305000BD3124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357835B12632305000BD3124 /* Assets.xcassets */; };
 		357835B52632305000BD3124 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357835B42632305000BD3124 /* Preview Assets.xcassets */; };
@@ -44,13 +45,11 @@
 		35B81CEF28FB4BAA004DD368 /* ContentDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B81CEE28FB4BAA004DD368 /* ContentDB.swift */; };
 		35C0538B28E0848C008225F9 /* Persister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0538A28E0848C008225F9 /* Persister.swift */; };
 		35C6D7B1293A324F0052C5FC /* BlockLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6D7B0293A324F0052C5FC /* BlockLayoutManager.swift */; };
-		35CB2D7B2F17C7DC005B5EC8 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 35CB2D7A2F17C7DC005B5EC8 /* Factory */; };
 		35CB2D7D2F17D744005B5EC8 /* CodedTextViewContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB2D7C2F17D73F005B5EC8 /* CodedTextViewContents.swift */; };
 		35CFFD4A2644012B0009AAC6 /* CharacterSet+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CFFD492644012B0009AAC6 /* CharacterSet+.swift */; };
 		35EEF365264979150080EBD4 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEF364264979150080EBD4 /* Functions.swift */; };
 		35F1E49B2641972300F3DDCC /* NSAttributedString.Key+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1E49A2641972300F3DDCC /* NSAttributedString.Key+.swift */; };
 		35F1E4A52641C76300F3DDCC /* Keycode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1E4A42641C76300F3DDCC /* Keycode.swift */; };
-		35F48640282339F200FB55B9 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 35F4863F282339F200FB55B9 /* Logging */; };
 		35F903E82811D03C000F8E26 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F903D32811D03B000F8E26 /* TextView.swift */; };
 		35F903E92811D03C000F8E26 /* BlockMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F903D42811D03B000F8E26 /* BlockMenuViewController.xib */; };
 		35F903EA2811D03C000F8E26 /* BlockHoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F903D52811D03B000F8E26 /* BlockHoverViewController.swift */; };
@@ -89,8 +88,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3577CC5B2F17F38C0054E122 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		350DDE4A28EB68D9006DEC7E /* NuclearWasteland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuclearWasteland.swift; sourceTree = "<group>"; };
 		350DDE4D28EB6A33006DEC7E /* RangeSelectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSelectionHelper.swift; sourceTree = "<group>"; };
 		350DDE5028EBACB8006DEC7E /* CodedBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodedBlock.swift; sourceTree = "<group>"; };
 		3515031A26692A14000E93EE /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
@@ -114,13 +125,13 @@
 		356D2E8929076AC300FF9F2F /* PopoverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverManager.swift; sourceTree = "<group>"; };
 		356DE5982637BB6800912975 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		3575CC81263D7BD400E9F306 /* NSColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+.swift"; sourceTree = "<group>"; };
-		357835AA2632304F00BD3124 /* Booksmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booksmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		357835AA2632304F00BD3124 /* textytext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textytext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357835AD2632304F00BD3124 /* BooksmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksmartApp.swift; sourceTree = "<group>"; };
 		357835B12632305000BD3124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357835B42632305000BD3124 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		357835B62632305000BD3124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		357835B72632305000BD3124 /* Booksmart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Booksmart.entitlements; sourceTree = "<group>"; };
-		357835BC2632305000BD3124 /* BooksmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		357835B72632305000BD3124 /* textytext.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = textytext.entitlements; sourceTree = "<group>"; };
+		357835BC2632305000BD3124 /* textytextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textytextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35787EF52638394A008E74CF /* NSRange+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRange+.swift"; sourceTree = "<group>"; };
 		35787EFF263839AE008E74CF /* Collection+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+.swift"; sourceTree = "<group>"; };
 		35787F04263839CB008E74CF /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
@@ -172,8 +183,9 @@
 				"feature-2.gif",
 				"feature-3.gif",
 				"feature-4.gif",
+				"feature-5.gif",
 			);
-			target = 357835A92632304F00BD3124 /* Booksmart */;
+			target = 357835A92632304F00BD3124 /* textytext */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -186,10 +198,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3551571D28556CD3005260C8 /* Realm in Frameworks */,
-				3551571F28556CD3005260C8 /* RealmSwift in Frameworks */,
-				35F48640282339F200FB55B9 /* Logging in Frameworks */,
-				35CB2D7B2F17C7DC005B5EC8 /* Factory in Frameworks */,
+				3577CC6B2F17F4B60054E122 /* RealmSwift in Frameworks */,
+				3577CC692F17F4B60054E122 /* Realm in Frameworks */,
+				3577CC642F17F3C70054E122 /* Factory in Frameworks */,
+				3577CC662F17F3CD0054E122 /* Logging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +313,20 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
+		3577CC4C2F17F2500054E122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		357835A12632304F00BD3124 = {
 			isa = PBXGroup;
 			children = (
 				35CB2D822F17E3B9005B5EC8 /* readme-assets */,
 				356B6A54267172BE006A45B1 /* README.md */,
-				357835AC2632304F00BD3124 /* Booksmart */,
+				357835AC2632304F00BD3124 /* textytext */,
+				3577CC4C2F17F2500054E122 /* Frameworks */,
 				357835AB2632304F00BD3124 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -314,13 +334,13 @@
 		357835AB2632304F00BD3124 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				357835AA2632304F00BD3124 /* Booksmart.app */,
-				357835BC2632305000BD3124 /* BooksmartTests.xctest */,
+				357835AA2632304F00BD3124 /* textytext.app */,
+				357835BC2632305000BD3124 /* textytextTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		357835AC2632304F00BD3124 /* Booksmart */ = {
+		357835AC2632304F00BD3124 /* textytext */ = {
 			isa = PBXGroup;
 			children = (
 				35C0538E28E09B01008225F9 /* Main */,
@@ -329,12 +349,11 @@
 				356DE5972637BB5700912975 /* Extensions */,
 				357835B12632305000BD3124 /* Assets.xcassets */,
 				357835B62632305000BD3124 /* Info.plist */,
-				357835B72632305000BD3124 /* Booksmart.entitlements */,
+				357835B72632305000BD3124 /* textytext.entitlements */,
 				357835B32632305000BD3124 /* Preview Content */,
 				35E5A1312690AD940030B1CF /* TestingGround.playground */,
-				350DDE4A28EB68D9006DEC7E /* NuclearWasteland.swift */,
 			);
-			path = Booksmart;
+			path = textytext;
 			sourceTree = "<group>";
 		};
 		357835B32632305000BD3124 /* Preview Content */ = {
@@ -429,33 +448,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		357835A92632304F00BD3124 /* Booksmart */ = {
+		357835A92632304F00BD3124 /* textytext */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 357835D02632305100BD3124 /* Build configuration list for PBXNativeTarget "Booksmart" */;
+			buildConfigurationList = 357835D02632305100BD3124 /* Build configuration list for PBXNativeTarget "textytext" */;
 			buildPhases = (
 				20A7FA87BA349DFA1A6D904C /* Copy Bundle Frameworks */,
 				357835A62632304F00BD3124 /* Sources */,
 				357835A72632304F00BD3124 /* Frameworks */,
 				357835A82632304F00BD3124 /* Resources */,
+				3577CC5B2F17F38C0054E122 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Booksmart;
+			name = textytext;
 			packageProductDependencies = (
-				35F4863F282339F200FB55B9 /* Logging */,
-				3551571C28556CD3005260C8 /* Realm */,
-				3551571E28556CD3005260C8 /* RealmSwift */,
-				35CB2D7A2F17C7DC005B5EC8 /* Factory */,
+				3577CC632F17F3C70054E122 /* Factory */,
+				3577CC652F17F3CD0054E122 /* Logging */,
+				3577CC682F17F4B60054E122 /* Realm */,
+				3577CC6A2F17F4B60054E122 /* RealmSwift */,
 			);
 			productName = LimitlessUI;
-			productReference = 357835AA2632304F00BD3124 /* Booksmart.app */;
+			productReference = 357835AA2632304F00BD3124 /* textytext.app */;
 			productType = "com.apple.product-type.application";
 		};
-		357835BB2632305000BD3124 /* BooksmartTests */ = {
+		357835BB2632305000BD3124 /* textytextTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 357835D32632305100BD3124 /* Build configuration list for PBXNativeTarget "BooksmartTests" */;
+			buildConfigurationList = 357835D32632305100BD3124 /* Build configuration list for PBXNativeTarget "textytextTests" */;
 			buildPhases = (
 				357835B82632305000BD3124 /* Sources */,
 				357835B92632305000BD3124 /* Frameworks */,
@@ -466,9 +486,9 @@
 			dependencies = (
 				357835BE2632305000BD3124 /* PBXTargetDependency */,
 			);
-			name = BooksmartTests;
+			name = textytextTests;
 			productName = LimitlessUITests;
-			productReference = 357835BC2632305000BD3124 /* BooksmartTests.xctest */;
+			productReference = 357835BC2632305000BD3124 /* textytextTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -490,7 +510,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 357835A52632304F00BD3124 /* Build configuration list for PBXProject "Booksmart" */;
+			buildConfigurationList = 357835A52632304F00BD3124 /* Build configuration list for PBXProject "textytext" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -500,16 +520,16 @@
 			);
 			mainGroup = 357835A12632304F00BD3124;
 			packageReferences = (
-				35F4863E282339F200FB55B9 /* XCRemoteSwiftPackageReference "swift-log" */,
-				3551571B28556CD3005260C8 /* XCRemoteSwiftPackageReference "realm-swift" */,
-				35CB2D792F17C7D3005B5EC8 /* XCRemoteSwiftPackageReference "Factory" */,
+				3577CC4F2F17F2CE0054E122 /* XCRemoteSwiftPackageReference "Factory" */,
+				3577CC572F17F35B0054E122 /* XCRemoteSwiftPackageReference "swift-log" */,
+				3577CC672F17F4A20054E122 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 357835AB2632304F00BD3124 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				357835A92632304F00BD3124 /* Booksmart */,
-				357835BB2632305000BD3124 /* BooksmartTests */,
+				357835A92632304F00BD3124 /* textytext */,
+				357835BB2632305000BD3124 /* textytextTests */,
 			);
 		};
 /* End PBXProject section */
@@ -607,7 +627,6 @@
 				35353C6028FA0BD1002FED54 /* LocalStorageHandler.swift in Sources */,
 				356DE5992637BB6800912975 /* Color+.swift in Sources */,
 				3527C85428EA300600A664AB /* View+.swift in Sources */,
-				350DDE4B28EB68D9006DEC7E /* NuclearWasteland.swift in Sources */,
 				35353C6228FA1A55002FED54 /* Data+.swift in Sources */,
 				354D3C042969215B00C9FAC3 /* DependencyInjection.swift in Sources */,
 				35F903F72811D03C000F8E26 /* TextBlock.swift in Sources */,
@@ -638,7 +657,7 @@
 /* Begin PBXTargetDependency section */
 		357835BE2632305000BD3124 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 357835A92632304F00BD3124 /* Booksmart */;
+			target = 357835A92632304F00BD3124 /* textytext */;
 			targetProxy = 357835BD2632305000BD3124 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -677,6 +696,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = textytext/textytext.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -702,7 +722,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = Booksmart;
+				PRODUCT_NAME = textytext;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -745,6 +765,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = textytext/textytext.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -763,7 +784,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = Booksmart;
+				PRODUCT_NAME = textytext;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -777,12 +798,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Booksmart/Booksmart.entitlements;
+				CODE_SIGN_ENTITLEMENTS = textytext/textytext.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Booksmart/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"textytext/Preview Content\"";
+				DEVELOPMENT_TEAM = S83364QYM6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -790,14 +813,14 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
-				INFOPLIST_FILE = Booksmart/Info.plist;
+				INFOPLIST_FILE = textytext/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "textytext-macos";
+				PRODUCT_BUNDLE_IDENTIFIER = textytext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -809,12 +832,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Booksmart/Booksmart.entitlements;
+				CODE_SIGN_ENTITLEMENTS = textytext/textytext.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Booksmart/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"textytext/Preview Content\"";
+				DEVELOPMENT_TEAM = S83364QYM6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -822,14 +847,14 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
-				INFOPLIST_FILE = Booksmart/Info.plist;
+				INFOPLIST_FILE = textytext/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "textytext-macos";
+				PRODUCT_BUNDLE_IDENTIFIER = textytext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -853,7 +878,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fredrik.BooksmartTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Booksmart.app/Contents/MacOS/Booksmart";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textytext.app/Contents/MacOS/textytext";
 			};
 			name = Debug;
 		};
@@ -874,14 +899,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fredrik.BooksmartTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Booksmart.app/Contents/MacOS/Booksmart";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textytext.app/Contents/MacOS/textytext";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		357835A52632304F00BD3124 /* Build configuration list for PBXProject "Booksmart" */ = {
+		357835A52632304F00BD3124 /* Build configuration list for PBXProject "textytext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				357835CE2632305100BD3124 /* Debug */,
@@ -890,7 +915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		357835D02632305100BD3124 /* Build configuration list for PBXNativeTarget "Booksmart" */ = {
+		357835D02632305100BD3124 /* Build configuration list for PBXNativeTarget "textytext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				357835D12632305100BD3124 /* Debug */,
@@ -899,7 +924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		357835D32632305100BD3124 /* Build configuration list for PBXNativeTarget "BooksmartTests" */ = {
+		357835D32632305100BD3124 /* Build configuration list for PBXNativeTarget "textytextTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				357835D42632305100BD3124 /* Debug */,
@@ -911,15 +936,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3551571B28556CD3005260C8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		35CB2D792F17C7D3005B5EC8 /* XCRemoteSwiftPackageReference "Factory" */ = {
+		3577CC4F2F17F2CE0054E122 /* XCRemoteSwiftPackageReference "Factory" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hmlongco/Factory";
 			requirement = {
@@ -927,36 +944,44 @@
 				version = 1.3.1;
 			};
 		};
-		35F4863E282339F200FB55B9 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+		3577CC572F17F35B0054E122 /* XCRemoteSwiftPackageReference "swift-log" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-log.git";
+			repositoryURL = "https://github.com/apple/swift-log";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				kind = exactVersion;
+				version = 1.4.2;
+			};
+		};
+		3577CC672F17F4A20054E122 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.45.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3551571C28556CD3005260C8 /* Realm */ = {
+		3577CC632F17F3C70054E122 /* Factory */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3551571B28556CD3005260C8 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		3551571E28556CD3005260C8 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3551571B28556CD3005260C8 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-		35CB2D7A2F17C7DC005B5EC8 /* Factory */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 35CB2D792F17C7D3005B5EC8 /* XCRemoteSwiftPackageReference "Factory" */;
+			package = 3577CC4F2F17F2CE0054E122 /* XCRemoteSwiftPackageReference "Factory" */;
 			productName = Factory;
 		};
-		35F4863F282339F200FB55B9 /* Logging */ = {
+		3577CC652F17F3CD0054E122 /* Logging */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 35F4863E282339F200FB55B9 /* XCRemoteSwiftPackageReference "swift-log" */;
+			package = 3577CC572F17F35B0054E122 /* XCRemoteSwiftPackageReference "swift-log" */;
 			productName = Logging;
+		};
+		3577CC682F17F4B60054E122 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3577CC672F17F4A20054E122 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		3577CC6A2F17F4B60054E122 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3577CC672F17F4A20054E122 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

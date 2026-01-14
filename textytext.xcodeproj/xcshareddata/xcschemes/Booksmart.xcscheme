@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "357835A92632304F00BD3124"
-               BuildableName = "Booksmart.app"
-               BlueprintName = "Booksmart"
-               ReferencedContainer = "container:Booksmart.xcodeproj">
+               BuildableName = "textytext.app"
+               BlueprintName = "textytext"
+               ReferencedContainer = "container:textytext.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "357835BB2632305000BD3124"
-               BuildableName = "BooksmartTests.xctest"
-               BlueprintName = "BooksmartTests"
-               ReferencedContainer = "container:Booksmart.xcodeproj">
+               BuildableName = "textytextTests.xctest"
+               BlueprintName = "textytextTests"
+               ReferencedContainer = "container:textytext.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "357835A92632304F00BD3124"
-            BuildableName = "Booksmart.app"
-            BlueprintName = "Booksmart"
-            ReferencedContainer = "container:Booksmart.xcodeproj">
+            BuildableName = "textytext.app"
+            BlueprintName = "textytext"
+            ReferencedContainer = "container:textytext.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,9 +73,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "357835A92632304F00BD3124"
-            BuildableName = "Booksmart.app"
-            BlueprintName = "Booksmart"
-            ReferencedContainer = "container:Booksmart.xcodeproj">
+            BuildableName = "textytext.app"
+            BlueprintName = "textytext"
+            ReferencedContainer = "container:textytext.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
