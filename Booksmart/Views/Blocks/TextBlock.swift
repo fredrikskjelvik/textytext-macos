@@ -1,0 +1,27 @@
+import Cocoa
+
+fileprivate func blockStyle() -> StyleBuilder {
+    return StyleBuilder(
+        color: NSColor.Grayscale.Body,
+        fontSize: TextBlock.fontSize,
+        lineSpacing: 5.0,
+        blockType: .text
+    )
+}
+
+class TextBlock: Block {
+    typealias Coded = Block.Coded
+    static let fontSize: CGFloat = 18.0
+
+    public init(owner: TextBlockStorage, range: NSRange, index: Int = 0) {
+        super.init(owner: owner, type: .text, style: blockStyle(), range: range, index: index)
+    }
+
+    public init(from coded: Coded, owner: TextBlockStorage, offset: Int, index: Int) throws {
+        try super.init(owner: owner, type: .text, style: blockStyle(), data: coded.data, offset: offset, index: index)
+    }
+
+    required init(copy block: Block) {
+        super.init(copy: block)
+    }
+}

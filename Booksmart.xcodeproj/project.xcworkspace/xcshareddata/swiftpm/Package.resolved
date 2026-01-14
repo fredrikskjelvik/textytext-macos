@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "factory",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hmlongco/Factory",
+      "state" : {
+        "revision" : "e7a84d45dd0c2d5eff3328f979ee0bb6175c9040",
+        "version" : "1.3.1"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "fd48276f88f3d55dbdcdc9e8cbf32541811d5865",
+        "version" : "12.1.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "d02407e9cc22758aa8d20f0a5dd172598bdf9212"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
+        "version" : "1.4.2"
+      }
+    }
+  ],
+  "version" : 2
+}

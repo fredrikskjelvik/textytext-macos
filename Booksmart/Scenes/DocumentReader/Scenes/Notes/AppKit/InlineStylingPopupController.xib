@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="InlineStylingPopupController" customModule="Booksmart" customModuleProvider="target">
+            <connections>
+                <outlet property="blockSelectionPopup" destination="qmd-Of-vGn" id="KLH-wx-O3o"/>
+                <outlet property="linkButton" destination="DMe-Ml-8tu" id="Ihr-0F-tes"/>
+                <outlet property="pageLinkButton" destination="Sz3-VX-XsP" id="Ku9-l9-Xmu"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView focusRingType="none" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="7" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pcI-9u-14Z">
+                    <rect key="frame" x="180" y="12" width="408" height="18"/>
+                    <subviews>
+                        <button toolTip="CTRL + N" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5K8-T1-cfS">
+                            <rect key="frame" x="0.0" y="-1" width="65" height="19"/>
+                            <buttonCell key="cell" type="roundRect" title="Highlight" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zhi-4G-7ds">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="onClickHighlight:" target="-2" id="NTH-6h-mMc"/>
+                            </connections>
+                        </button>
+                        <button toolTip="CTRL + B" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XvP-EP-CGE">
+                            <rect key="frame" x="72" y="-1" width="40" height="19"/>
+                            <buttonCell key="cell" type="roundRect" title="Bold" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="AJo-nf-y4l">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="onClickBold:" target="-2" id="vmE-vd-k14"/>
+                            </connections>
+                        </button>
+                        <button toolTip="CTRL + I" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-36-wGQ">
+                            <rect key="frame" x="119" y="-1" width="41" height="19"/>
+                            <buttonCell key="cell" type="roundRect" title="Italic" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rgI-Tm-kRw">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="onClickItalic:" target="-2" id="U0n-HJ-eUc"/>
+                            </connections>
+                        </button>
+                        <button toolTip="CTRL + U" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Sqg-QW-8BW">
+                            <rect key="frame" x="167" y="-1" width="69" height="19"/>
+                            <buttonCell key="cell" type="roundRect" title="Underline" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JHp-p1-SkY">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="onClickUnderline:" target="-2" id="g39-zk-ogb"/>
+                            </connections>
+                        </button>
+                        <button toolTip="CTRL + ?" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kiE-1a-sjx">
+                            <rect key="frame" x="243" y="-1" width="44" height="19"/>
+                            <buttonCell key="cell" type="roundRect" title="Code" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VEm-IX-Jik">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="onClickCode:" target="-2" id="Env-gy-EL5"/>
+                            </connections>
+                        </button>
+                        <button toolTip="CTRL + ?" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DMe-Ml-8tu">
+                            <rect key="frame" x="294" y="-1" width="38" height="19"/>
+                            <buttonCell key="cell" type="roundRect" title="Link" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="BOX-zX-jAD">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="onClickLink:" target="-2" id="9sx-OW-uO7"/>
+                            </connections>
+                        </button>
+                        <button toolTip="CTRL + ?" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Sz3-VX-XsP">
+                            <rect key="frame" x="339" y="-1" width="69" height="19"/>
+                            <buttonCell key="cell" type="roundRect" title="Page Link" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2tz-lT-G8N">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="onClickPageLink:" target="-2" id="Uu7-6M-UTY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+                <popUpButton verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qmd-Of-vGn">
+                    <rect key="frame" x="9" y="7" width="120" height="25"/>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="quj-ph-E8M">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" id="MWh-7D-fnN"/>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="onChangeBlockSelection:" target="-2" id="4p1-cE-YZ5"/>
+                    </connections>
+                </popUpButton>
+            </subviews>
+            <constraints>
+                <constraint firstItem="qmd-Of-vGn" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="12" id="F46-7I-ehe"/>
+                <constraint firstItem="qmd-Of-vGn" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" constant="1" id="FXh-LV-kUz"/>
+                <constraint firstItem="pcI-9u-14Z" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" constant="1" id="OZb-yu-0GF"/>
+                <constraint firstAttribute="trailing" secondItem="pcI-9u-14Z" secondAttribute="trailing" constant="12" id="ocJ-Gi-Qvb"/>
+            </constraints>
+            <point key="canvasLocation" x="-74.5" y="154"/>
+        </customView>
+    </objects>
+</document>
